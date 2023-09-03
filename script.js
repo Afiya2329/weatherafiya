@@ -7,13 +7,13 @@ weatherPart = wrapper.querySelector(".weather-part"),
 wIcon = weatherPart.querySelector("img"),
 arrowBack = wrapper.querySelector("header i");
 var preloader = document.getElementById("loading");
+var time = 5000;
 
 let api;
-function myFunction() {
-         preloader.style.display = 'none';
-         setTimeout(5000000000000000000000000000000000);
-         
-    }
+setTimeout(function myFunction() {
+        preloader.style.display = "none";
+      }, time);
+
 
 inputField.addEventListener("keyup", e =>{
     if(e.key == "Enter" && inputField.value != ""){
