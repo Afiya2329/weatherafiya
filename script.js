@@ -11,7 +11,7 @@ var preloader = document.getElementById("loading");
 let api;
 function myFunction() {
          preloader.style.display = 'none';
-         set.timeout(50000)
+         setTimeout(1000);
          
     }
 
